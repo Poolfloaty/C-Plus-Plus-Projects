@@ -26,7 +26,7 @@ int getMaxProfit(vector<int> &prices) {
    return maxProfit;
 }
 int main() {
-   // your target function will be tested as such, with random input like so
+   // Function testing
    vector<int> arr{1,2,5,1,6};
    cout << getMaxProfit(arr); // 3
    return 0;
